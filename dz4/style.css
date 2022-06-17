@@ -1,0 +1,31 @@
+body{
+    background: #24523f;
+}
+.counter{
+    display: flex;
+    width: 1000px;
+    height: 100vh;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
+}
+#buttonCountPlus{
+    padding: 10px 50px;
+    border: 0;
+    background: #50ad88;
+    font-size: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#buttonCountNumber{
+    font-size: 40px;
+    color: #fff;
+}
+#buttonCountMinus{
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 10px 50px;
+    border: 0;
+    background: #56b692;
+    font-size: 30px;
+}
